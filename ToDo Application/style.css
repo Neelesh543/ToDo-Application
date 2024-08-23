@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #c02425, #f0cb35);
+  text-align: center;
+  margin-top: 5.5rem;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+#error{
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    letter-spacing: 0.2rem;
+    
+}
+form {
+  border-radius: 1.5rem;
+  height: auto;
+  color: #fff;
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 1.5rem;
+  width: 40rem;
+  margin: auto;
+  text-align: center;
+}
+
+#inputValue {
+  height: 3rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: 3px solid blueviolet;
+  font-size: medium;
+  font-weight: bold;
+  margin: 2rem 0 2.5rem;
+  padding-left: 1rem;
+}
+
+#add {
+  height: 2.8rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 8.5rem;
+  border: 0.3rem solid blueviolet;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#add:hover {
+  height: 3.2rem;
+  width: 9.5rem;
+  border: 0.3rem solid rgb(187, 252, 8);
+  background-color: #ee374f;
+  cursor: pointer;
+}
+
+.store_value {
+  padding-bottom: 1rem;
+  margin-left: 4.5rem;
+  width: 31.9rem;
+  display: grid;
+  grid-template-columns: 1fr 0.3fr;
+  align-items: center;
+  height: auto;
+  justify-items: start;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 800;
+}
+
+.delItem {
+  height: 2.8rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 7.5rem;
+  border: 0.3rem solid blueviolet;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.delItem:hover {
+  height: 3rem;
+  width: 8.5rem;
+  border: 0.3rem solid rgb(240, 16, 8);
+  background-color: #06ee6e;
+  cursor: pointer;
+}
